@@ -1,6 +1,10 @@
 # Lista de mods
 
-## Rendimiento
+## Índice
+
+1. [Mods quue afectan el rendimiento](#test1)
+
+### Rendimiento
 
 - **sodium-fabric-mc1.19.2-0.4.4+build.18**: Sodium is a free and open-source rendering engine replacement for the Minecraft client which greatly improves frame rates and stuttering while fixing many graphical issues.
 - **lithium-fabric-mc1.19.2-0.10.0**: Lithium is a general-purpose optimization mod for Minecraft which works to improve a number of systems (game physics, mob AI, block ticking, etc) without changing any behavior.
@@ -35,7 +39,7 @@
 
 ---
 
-## How it looks the game
+## How it looks the game<a name="test1"></a>
 
 - **BetterAnimationsCollection-v4.0.4-1.19.2-Fabric**: aims to improve the atmosphere of Minecraft by changing the in-game models to allow for better animations and subtle effects.  
 *requires* fabric-api, PuzzlesLib, ForgeConfigAPIPort
