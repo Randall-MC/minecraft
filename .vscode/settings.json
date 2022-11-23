@@ -1,3 +1,52 @@
 {
-    "cSpell.language": "en,es"
+    "cSpell.language": "en,es",
+    "cSpell.words": [
+        "appleskin",
+        "architectury",
+        "arrp",
+        "bettercombat",
+        "bettervillage",
+        "blockstates",
+        "camerautils",
+        "clientside",
+        "combatroll",
+        "compat",
+        "crosshairs",
+        "CTOV",
+        "datapack",
+        "devs",
+        "dynamiccrosshair",
+        "extrasounds",
+        "hotbar",
+        "Huricaaan",
+        "keyframes",
+        "libraryferret",
+        "loottables",
+        "medievalweapons",
+        "midnightlib",
+        "minecraft",
+        "Minecraft",
+        "modders",
+        "modmenu",
+        "Mojang",
+        "multiplatform",
+        "Opti",
+        "Optifine",
+        "projectiledamage",
+        "Ragdolls",
+        "resourcepack",
+        "resourcepacks",
+        "shaderspacks",
+        "simplyswords",
+        "soundphysics",
+        "Structory",
+        "vcinteraction",
+        "voicechat"
+    ],
+
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": ["a"]
+        }
+    }
 }
