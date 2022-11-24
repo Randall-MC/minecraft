@@ -10,6 +10,7 @@
 6. [Físicas del juego](#fisicas)
 7. [Audio del juego](#audio)
 8. [Ajustes del juego](#ajustes)
+9. [Items](#items)
 
 ---
 
@@ -34,6 +35,8 @@
 `requiere fabric-api, PuzzlesLib, ForgeConfigAPIPort`
 - **dungeon_difficulty-1.1.1+1.19**: Increase the difficulty and get matching rewards
 - **spiders-fabric-1.19.2-2.0.2**: enables regular spiders and cave spiders to walk along walls and ceilings and it also improves their AI such that they can find their way around almost any obstacle.
+- **naturalist-fabric-2.1.1-1.19.2**: Adds more animals to the game that behave as they do in real life.  
+`requiere geckolib`
 
 ---
 
@@ -51,6 +54,11 @@
 - **appleskin-fabric-mc1.19-2.4.1**: Provides information about some mechanics that are invisible by default
 - **BetterPingDisplay-Fabric-1.19.2-1.1.1**: A mod for displaying each player's ping in the player list as a number, with various configuration options.
 - **Smooth+Swapping+0.5+(1.19.2)-0.5**: This mod moves items in inventories smoothly instead of letting them appear instantly.
+- **AdvancementPlaques-1.19.2-fabric-1.4.6**: Replace those boring, anti-climactic advancement popups with fancy glowing plaques.  
+`requiere Iceberg, ForgeConfigAPIPort`  
+`resourcepack Vanilla+Advancement, FutureHUD, EmbellishedStone-1.19-1.0.0`
+- **Xaeros_Minimap_22.16.2_Fabric_1.19.1**: Unlike many other minimap mods, Xaero's minimap keeps the aesthetic of vanilla Minecraft, which helps it be a more seamless addition to the game.
+- **XaerosWorldMap_1.28.3_Fabric_1.19.1**: adds a self-writing fullscreen map to your Minecraft client. Works as a separate mod but is a lot better with Xaero's Minimap.
 
 ---
 
@@ -83,6 +91,13 @@
 `requiere midnightlib, satin`
 - **VisualWorkbench-v4.2.0-1.19.2-Fabric**: makes items put into a crafting table stay inside. Breaking the block drops everything on the ground, just like you'd expect. Oh, and crafting ingredients as well as the resulting item are also rendered on top.  
 `requires fabric-api, PuzzlesLib, ForgeConfigAPIPort`
+- **MerchantMarkers-1.19.1-fabric-1.2.3**: Add custom markers above villagers to make them stand out and be easier to find than ever.  
+`requiere Iceberg, ForgeConfigAPIPort`
+- **Highlighter-1.19.1-fabric-1.1.4**: Quickly find new items by showing an animated star on all newly-picked up items.  
+`requiere Iceberg`
+- **ItemBorders-1.19-fabric-1.1.6**: Add colored borders to inventory slots to make your rare items stand out!  
+`requiere Iceberg`
+- **visuality-0.5.5**: Add a bunch of new particles such as crystal sparkles, particles on mob hitting, custom blob particles for slimes, environmental particles to your Minecraft world.
 
 ---
 
@@ -91,6 +106,7 @@
 - **SnowRealMagic-1.19.2-fabric-5.0.4**: This simple tweak mod can enrich the vanilla snow layer's behavior.  
 `requiere Kiwi, cloth-config`
 - **physics-mod-2.9.2-mc-1.19.x-fabric**: Collapsing caves, interactive Ragdolls, Item physics and much more
+- ****: It allows to revive a player within 60 seconds after death.
 
 ---
 
@@ -107,12 +123,20 @@
 - **voicechat-fabric-1.19.2-2.3.16**: adds a proximity voice chat to your Minecraft server.
 - **vcinteraction-1.19.2-1.0.2** This server side Fabric mod allows Simple Voice Chat to interact with your Minecraft world.
 `requires voicechat`
+- **AmbientSounds_FABRIC_v5.2.9_mc1.19.2**: Adds a more vibrant ambience.  
+`requiere CreativeCore`
 
 ---
 
 ### Ajustes durante el juego<a name="ajustes"></a>
 
 - **modmenu-4.1.1**: Adds a screen for viewing a list of installed mods.
+
+---
+
+### Items<a name="items"></a>
+
+- **craftable_enchanted_golden_apple-1.0.3**: Adds the 1.8 crafting recipe for the Enchanted Golden Apple back into the game!
 
 ---
 
@@ -132,27 +156,7 @@
 - **satin-1.9.0**: Satin is a simple library allowing modders to add interesting graphical effects to their mods.
 - **player-animation-lib-fabric-0.4.0-test4**: Player animation library, animate the player using keyframes.
 - **projectiledamage-fabric-2.2.0+1.19**: Adds new EntityAttribute to the game. This allows customization of damage done by individual Bow and Crossbow items in the game.
-
-
-- **architectury-6.3.49-fabric**: An intermediary api aimed to ease developing multiplatform mods.
-- **arrp-0.6.4**: An api for fabric that allows for the generation of resourcepacks at runtime via code. This allows you to add recipes/loottables/models/blockstates without json and in code, as well as allowing conditional resources. All while being compatible with normal resource packs
-- **libraryferret-fabric-1.19.2-3.0.0**: This mod is a library mod, contains shared code for my mods Minecraft Fabric.
+- **geckolib-fabric-1.19-3.1.37**: Is an animation engine for Minecraft Mods
+- **CreativeCore_FABRIC_v2.9.1_mc1.19.2**: A simple core mod required by most of my mods, containing useful features like a gui-api, packet system, dynamic rendering system, easy asm transformation name manager and other useful stuff.
 
 ---
-
-## World Generation
-
-- **Structory-1.19-v1.3**: Ruins, fire towers, cottages and stables, graveyards, settlements, boats, and upcoming expansions/add-ons.
-- **[Universal]CTOV-v3-1-2-overriding**: ChoiceTheorem's overhauled village is a structure datapack package as a mod for forge and fabric that enhances and creates new villages and pillager outpost variants.
-- **Towns-and-Towers-v.1.10-_FABRIC-1.19.2**: Towns & Towers is a mod that aims to expand upon the 1.14 update created by Mojang with new villages, pillager outposts, and even brand-new ships.
-- **bettervillage-fabric-1.19.2-2.0.0**: This mod improves the vanilla minecraft villages, each building has been reworked with my build style.  
-*requires* libraryferret
-
----
-
-## Weapons
-
-- **medievalweapons-1.4.1**: This mod adds weapon from the series to Minecraft.  
-*requires* fabric-api-0.64.0+1.19.2, cloth-config-8.2.88-fabric, arrp-0.6.4
-- **simplyswords-fabric-1.33-1.19.x**: A variety of unique swords weapons to add to your minecraft repertoire.
-*requires* architectury-6.3.49-fabric
